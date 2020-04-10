@@ -6,5 +6,5 @@
 - For training from saved checkpoint, run: "python3 train.py --checkpoint ./model_trained/model.ckpt-30000" to resume from provided checkpoint. 
 Or run "python3 train.py --checkpoint [/path/to/your/saved/checkpoint]" to resume from your own saved checkpoint. Newly trained model will be saved at the same directory of provided checkpoint
 - Some explanations for choosing model/parameter can be found in Report file.
-- To view metrics, run "tensorboard --logdir=model --port [port] --host [host]"
-- For inference, simple run "python3 test.py" to predict fasion mnist dataset. 
+- To view metrics, run "tensorboard --logdir=[log directory] --port [port] --host [host]"
+- For inference, simple run "python3 predict.py" to predict fasion mnist dataset. 
